@@ -1,5 +1,4 @@
 import "./AuthLayout.css";
-
 import logo from "../../assets/images/logo.png";
 
 function AuthLayout({ title, children }) {

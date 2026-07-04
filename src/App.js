@@ -1,9 +1,12 @@
 import AuthLayout from "./components/AuthLayout/AuthLayout";
+import Login from "./pages/Login/Login";
+import Register from "./pages/Register/Register";
 
 function App() {
   return (
     <div className="App">
-      <AuthLayout/>
+      {/* <Register/> */}
+      <Login />
     </div>
   );
 }
