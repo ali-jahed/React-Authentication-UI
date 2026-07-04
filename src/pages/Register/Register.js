@@ -3,6 +3,7 @@ import { Form, Formik } from "formik";
 
 import AuthLayout from "../../components/AuthLayout/AuthLayout";
 import FormikControl from "../../components/formikComponents/FormikControl";
+import { Link } from "react-router-dom";
 
 const initialValues = {
   firstName: "",
@@ -104,15 +105,17 @@ const Register = () => {
         )}
       </Formik>
 
-      <h6 className="register-text text-center mt-4 text-light">
-        قبلاً ثبت‌نام کرده‌اید؟
-        <span
-          className="text-primary fw-bold me-2"
-          style={{ cursor: "pointer" }}
-        >
-          ورود
-        </span>
-      </h6>
+      <Link to ="/login">
+        <h6 className="register-text text-center mt-4 text-light">
+          قبلاً ثبت‌نام کرده‌اید؟
+          <span
+            className="text-dark fw-bold me-2"
+            style={{ cursor: "pointer" }}
+          >
+            ورود
+          </span>
+        </h6>
+      </Link>
     </AuthLayout>
   );
 };

@@ -1,12 +1,9 @@
-import AuthLayout from "./components/AuthLayout/AuthLayout";
-import Login from "./pages/Login/Login";
-import Register from "./pages/Register/Register";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
     <div className="App">
-      {/* <Register/> */}
-      <Login />
+      <AppRoutes />
     </div>
   );
 }
