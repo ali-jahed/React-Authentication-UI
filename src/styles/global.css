@@ -1,0 +1,24 @@
+@font-face {
+
+    font-family: "BYekan";
+
+    src: url("../assets/fonts/BYekan.woff") format("woff");
+
+}
+#root{
+
+    width:100%;
+
+    min-height:100%;
+}
+body{
+
+    font-family:"BYekan",sans-serif;
+    background-image:url("../assets/images/background.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    color:white;
+    overflow-x:hidden;
+}
